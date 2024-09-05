@@ -3,11 +3,7 @@ import numpy as np
 from collections import Counter
 
 ## Reading file containing the 1946 remainig protein groups after filtering
-df=pd.read_csv("fil70atleastonegroup.txt",sep="\t")
-
-## Drop group annotation that are set by perseus
-df=df.drop([0,1])
-df=df.reset_index(drop=True)
+df=pd.read_csv("FilteredProteinGroups.csv")
 
 for x in range(1,6):
     ## Consider only intensity columns
