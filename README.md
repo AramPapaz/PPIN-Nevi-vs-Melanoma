@@ -1,4 +1,5 @@
 # PPIN-Nevi-vs-Melanoma
+[![DOI](https://zenodo.org/badge/849765878.svg)](https://doi.org/10.5281/zenodo.13903581)
 ![TOC_Final](https://github.com/user-attachments/assets/df8b58c6-b8ad-4c06-abe6-366aacf527d8)
 
 
