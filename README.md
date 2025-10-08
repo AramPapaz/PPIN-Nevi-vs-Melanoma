@@ -10,8 +10,8 @@ Analysis of context-specific protein-protein interactions (PPIs) may provide dee
 
 # DiffPIC
 DiffPIC, differential protein interaction classifier, was developed using the following package version:
-*torch==2.6.0+cu126
-*torch_geometric==2.6.1
-*transformers==4.55.2
-*numpy==1.26.4
-*pandas==2.2.2
+* torch==2.6.0+cu126
+* torch_geometric==2.6.1
+* transformers==4.55.2
+* numpy==1.26.4
+* pandas==2.2.2
