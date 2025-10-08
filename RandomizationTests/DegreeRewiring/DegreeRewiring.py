@@ -4,8 +4,10 @@ import numpy as np
 from collections import Counter
 import random
 
+
 ## Only keeping the proteins having Concordant or Conflicting Interactions. Ignoring neutral represented as 'n'
 DiffPPIN=pd.read_csv("InteractionAgreement.csv")
+
 DiffPPIN=DiffPPIN[DiffPPIN['Type']!='n'].reset_index(drop=True)
 
 ## Taking the significant proteins after median normalization
@@ -14,7 +16,7 @@ diff=pd.read_csv("SignificantProteinGroups.csv")
 agree=list()
 conflicting=list()
 ## 100 iterations of distinct randomization
-for z in range(5):
+for z in range(100):
     ## Perform Randomization
     prot1=list(DiffPPIN["Protein1"])
     prot2=list(DiffPPIN["Protein2"])
