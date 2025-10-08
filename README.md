@@ -15,4 +15,8 @@ DiffPIC, differential protein interaction classifier, was developed using the fo
 * transformers==4.55.2
 * numpy==1.26.4
 * pandas==2.2.2
+
 The statedict of DiffPIC can be found in the `DiffPIC/` folder with an example use case on the Test set.
+
+# Data
+The train, validation, and test sets of DiffPIC can be found in `PyG_data/`. The final interaction network based on DiffPIC predictions and the protein abundance workflow are found in `PPI_Networks`. The degree preserving rewiring and 
