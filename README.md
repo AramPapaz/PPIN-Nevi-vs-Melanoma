@@ -15,3 +15,4 @@ DiffPIC, differential protein interaction classifier, was developed using the fo
 * transformers==4.55.2
 * numpy==1.26.4
 * pandas==2.2.2
+The statedict of DiffPIC can be found in the `DiffPIC/` folder with an example use case on the Test set.
