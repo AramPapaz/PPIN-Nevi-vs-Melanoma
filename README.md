@@ -17,3 +17,11 @@ DiffPIC, differential protein interaction classifier, was developed using the fo
 * pandas==2.2.2
 
 The statedict of DiffPIC can be found in the `DiffPIC/` folder with an example use case on the Test set.
+
+
+## PyG Data Creation
+In order to create a graph neural network data as input for the model the following are required:
+* ESM2 embeddings for each protein, this can be achieved by providing a fasta file to the script in `ESM2/`
+* A protein expression text file space separated as shown in `PyG_DataCreation/ProteinExpression.txt`, where *Expres1* is the mean protein abundance in the disease condition while *Expres2* is the mean of the control.
+* Provide an interaction data as a csv file similar to `PyG_DataCreation/InteractionData.csv`, make sure no self and repeated interactions are present.
+* Feed the aforementioned files to `PyG_DataCreation/createGNNData.py` and the PyG Data will be outputted.
